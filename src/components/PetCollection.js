@@ -17,6 +17,7 @@ class PetCollection extends Component {
   addPet = (petInfo) => {
     let updatedPets = this.state.pets;
     updatedPets.push(petInfo);
+
     this.setState({ pets: updatedPets});
   }
 
@@ -44,7 +45,7 @@ class PetCollection extends Component {
           </tbody>
         </table>
 
-        <NewPetForm addPetCallback = { this.addPet } />
+        <NewPetForm addPetCallback={ this.addPet } />
       </section>
     );
   }
