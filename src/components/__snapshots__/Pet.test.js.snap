@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pet That it can render without crashing 1`] = `
+<tr
+  className="pet"
+>
+  <td>
+    Pete
+  </td>
+  <td>
+    Pomeranian
+  </td>
+  <td>
+    23
+  </td>
+  <td>
+    cute!
+  </td>
+</tr>
+`;
