@@ -36,7 +36,6 @@ class NewPetForm extends Component {
 
   onFormSubmit = (event) => {
     event.preventDefault();
-    console.log(this.state);
     this.props.addPetCallback(
       this.state);
 
