@@ -6,16 +6,16 @@ import NewPetForm from './NewPetForm';
 class PetCollection extends Component {
 
   static propTypes = {
-    data: PropTypes.array.isRequired
+
   };
 
-  constructor(props) {
+  constructor() {
     super();
 
     // set state to the static data from props
     // I want the pet collection to be the one who manages the data so that is why we set the state to the data we had in the App.js
     this.state = {
-      pets: props.data
+      pets: [],
     }
   }
 
